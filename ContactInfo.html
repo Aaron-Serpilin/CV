@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Information Aaron Serpilin</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Contact Details</h1>
+        <h3> Full Name </h3>
+        <p><a href="Index.html">Aaron Vladislav Serpilin</a></p>
+        <h3>Personal Email</h3>
+        <p>serpilin.aaron@gmail.com</p>
+        <h3>Professional Email</h3>
+        <p>aaron@weareshellshock.com</p>
+        <h3>Phone Number</h3>
+        <p>+593 98-755-6866</p>
+        <h3>Instagram</h3>
+        <p>_aaronchelo_</p>
+        <hr>
+        <form action="mailto:serpilin.aaron@gmail.com" method="post" enctype="text/plain"> <!-- The action attribute determines what happens when you complete the form, in other words hit submit. The enctype attribute changes the characters settings to normal characters so that the message can be readible-->
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""/> <br> <!--The name attribute defines the name by which the inputted data is saved as -->
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail"/> <br> <!--Email--> <!-- The email input type has specific validation functions such as requiring an @-->
+            <label>Your Message:</label> <br> 
+            <textarea name="yourMessage" rows="10" cols="30"></textarea> <br> <!-- Textbox-->
+            <input type="submit" name=""/> <!--Submit Button-->
+        </form>
+    </body>
+</html>
